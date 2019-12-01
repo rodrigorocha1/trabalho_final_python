@@ -9,7 +9,7 @@ class Menu:
             bpk = bp.BancoPokemon()
 
             print(
-                "1-Testar Pokedex\n2-Mais detalhes\n3-Capturar dados\n4-Dados Completos\n5-Sair")
+                "1-Testar Pokedex\n2-Lista com os id's\n3-Capturar dados\n4-Dados Completos\n5-Sair")
             op = int(input())
             if op == 1:
                 if pk.testar_pokedex():

@@ -8,7 +8,8 @@ import banco_pokemon as pk
 class Pokemon:
 
     def abrir_site(self):
-        webbrowser.open('https://bulbapedia.bulbagarden.net/', 1, True)
+        webbrowser.open(
+            'https://pt.wikipedia.org/wiki/Lista_de_Pok%C3%A9mon', 1, True)
 
     def testar_pokedex(self):
         url = "https://pokeapi.co/api/v2/"
